@@ -19,6 +19,12 @@ const AboutSection = () => {
             Perspiciatis atque non dolore temporibus facere consequuntur debitis
             accusamus laborum!
           </p>
+          <div className="contact mt-10">
+            <h3 className="mb-2">NAME</h3>
+            <p className="mb-10">Noah Maldonado</p>
+            <h3 className="mb-2">EMAIL</h3>
+            <p>noahglennmaldonado@gmail.com</p>
+          </div>
         </div>
       </div>
     </section>

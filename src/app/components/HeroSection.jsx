@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+// import jsImage from "../"
 
 const HeroSection = () => {
   return (
@@ -53,6 +54,47 @@ const HeroSection = () => {
               height={300}
             />
           </div>
+        </div>
+      </div>
+      <div className="skills text-white flex items-center">
+        <h2 className="font-bold text-xl mr-10 ">Tech Stack | </h2>
+        <div className="flex items-center justify-center [&>*]:mx-5">
+          <Image
+            src="/images/techicons/file_type_html_icon_130541.png"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/images/techicons/file_type_css_icon_130661.png"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/images/techIcons/file_type_js_official_icon_130509.png"
+            width={50}
+            height={50}
+          />
+          <Image
+            src="/images/techIcons/react_original_logo_icon_146374.png"
+            width={50}
+            height={50}
+          />
+          {/* <Image
+            src="/images/techIcons/file_type_tailwind_icon_130128.png"
+            width={50}
+            height={50}
+          /> */}
+          <Image
+            src="/images/techIcons/tailwindcss-mark.d52e9897.svg"
+            width={50}
+            height={50}
+          />
+
+          <Image
+            src="/images/techIcons/file_type_sass_icon_130182.png"
+            width={50}
+            height={50}
+          />
         </div>
       </div>
     </section>
