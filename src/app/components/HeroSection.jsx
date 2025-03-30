@@ -48,7 +48,7 @@ const HeroSection = () => {
           <div className="rounded-full bg-[#181818] bg-[red] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
               src="/images/hero-image.png"
-              alt="hero image"
+              alt="hero-image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
               height={300}
@@ -56,25 +56,31 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="skills text-white flex items-center">
-        <h2 className="font-bold text-xl mr-10 ">Tech Stack | </h2>
-        <div className="flex items-center justify-center [&>*]:mx-5">
+      <div className="skills text-white lg:flex items-center  mt-10">
+        <h2 className="  font-bold text-xl mr-10 lg:inline-block mb-5 lg:mb-0 ">
+          Tech Stack |
+        </h2>
+        <div className=" grid grid-cols-3  sm:grid-cols-6 justify-items-center items-center content-center  justify-center gap-5   [&>*]:mx-2 lg:[&>*]:mx-5 ">
           <Image
+            alt="html-icon"
             src="/images/techicons/file_type_html_icon_130541.png"
             width={50}
             height={50}
           />
           <Image
+            alt="css-icon"
             src="/images/techicons/file_type_css_icon_130661.png"
             width={50}
             height={50}
           />
           <Image
+            alt="Javascript-icon"
             src="/images/techIcons/file_type_js_official_icon_130509.png"
             width={50}
             height={50}
           />
           <Image
+            alt="react-icon"
             src="/images/techIcons/react_original_logo_icon_146374.png"
             width={50}
             height={50}
@@ -85,12 +91,14 @@ const HeroSection = () => {
             height={50}
           /> */}
           <Image
+            alt="tailwind-icon"
             src="/images/techIcons/tailwindcss-mark.d52e9897.svg"
             width={50}
             height={50}
           />
 
           <Image
+            alt="sass-icon"
             src="/images/techIcons/file_type_sass_icon_130182.png"
             width={50}
             height={50}
